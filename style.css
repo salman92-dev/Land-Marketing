@@ -1,0 +1,3776 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+}
+button{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	
+	padding: 0rem 0rem 15rem 0rem;
+	width: 100%;
+	height: auto;
+	background:url(images/Group1.png)no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: center;
+}
+
+     /*----------------------section 1 start------------------------*/	
+ .section1{
+ 	width: 100%;
+	height: 10rem;
+ 	padding: 0rem 5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.section1 .site-logo{
+	width: 30%;
+}
+
+.section1 .site-logo .hamburger{
+	display: none;
+	}
+.section1 .site-logo .hamburger .bars{
+       display: block;
+	   width: 30px;
+	   height: 3px;
+	  margin-bottom: .6rem;
+	   background-color: #FF7433;
+	}
+  .section1 a img{
+width: 20rem;
+
+}
+ .section1 .links{
+ 	width: 40%;
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	
+}
+ .links a{
+ font-family: 'Quicksand';
+ text-decoration: none;
+font-style: normal;
+font-weight: 500;
+font-size: 1.6rem;
+padding: 1rem 2rem;
+color: #FFFFFF;
+border-radius: 50px;
+transition: o.2s;
+}
+
+.links a:hover{
+	color: #111011; 
+	background-color: #FDEDDC;
+	font-weight: bold;
+}
+.section1 .btn1{
+	display: flex;
+	justify-content: flex-end;
+	width: 30%;
+}
+.section1 .btn1 button{
+ width: 15rem;
+ padding: 1rem 1rem;
+ border: none;
+ background: #FF7433;
+ color: white;
+ font-style: normal;
+font-weight: 600;
+ font-size: 1.6rem;
+ font-family: 'Quicksand';
+ cursor: pointer;
+}
+  /*---------------------------------section 1 end------------------------*/	
+
+  /*---------------------------------section 2 start------------------------*/
+     .section2{
+     	display: flex;
+     	flex-direction: row;
+     	width: 100%;
+     	height: auto;
+     	padding: 5rem 0rem 3rem 5rem;
+     	position: relative;
+     	gap: 5rem;
+		margin-top: 2rem;
+
+     }
+     .section2 .architecture{
+     	display: flex;
+     	flex-direction: column;
+     	justify-content: space-around;
+     	gap: 1.5rem;
+        width: 40%;
+        height: inherit;
+     }
+     .section2 .architecture h1{
+     	font-style: normal;
+        font-weight: 800;
+        font-size: 9rem;
+        color: #ECD8BD;
+     	font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+		animation: backInLeft;
+		animation-duration: 3s;
+     }
+
+     .section2 .architecture p{
+     	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 2rem;
+line-height: 3.4rem;
+color: #FFFFFF;
+     }
+
+     .architecture .btn-group{
+     	display: flex;
+     	flex-direction: row;
+     	gap: 3rem;
+     	align-items: center;
+     }
+
+      .architecture .btn-group button{
+     	width: 16rem;
+     	padding: 1.2rem 1rem;
+     	background: #FFCF54;
+     	font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.9rem;
+        color: #1B1724;
+
+     }
+      .architecture .btn-group button img{
+     	width: 1.5rem;
+     }
+
+     .architecture .btn-group a{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.6rem;
+color: #FFFFFF;
+     }
+     .architecture .btn-group a:after{
+     	content: ">";
+     	color:  #BB7455;
+     	width: 2rem;
+     	margin-left: 1.2rem;
+     	font-size: 1.5rem;
+     }
+
+     .section2 .parks{
+        display: flex;
+		justify-content: flex-end;
+     	width: 60%;
+     	height: inherit;
+     	
+     	
+     }
+     .section2 .parks img{
+     	width: 63.2rem;
+     	height: 55.1rem;
+		animation: fadeInRight;
+		animation-duration: 2s;
+     }
+
+    /*--------------------------section 2 end------------------------*/		
+
+
+/*----------------------------------section 3 start------------------------*/
+.section-3{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	padding: 2rem 5rem;
+}
+.section-3 .left-section{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: auto;
+	justify-content: space-between;
+	align-items: stretch;
+	gap: 3rem;
+}
+.left-section .upper-div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.left-section .upper-div div{
+	padding: 3rem 0;
+}
+.left-section .upper-div p{
+	color: #FFFFFF;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.9rem;
+line-height: 2.4rem;
+color: #FFFFFF;
+margin-bottom: 1rem;
+}
+
+.left-section .upper-div div img{
+	width: 4rem;
+height: 3.7rem;
+
+}
+.left-section .upper-div .building{
+width: 80%;
+height: auto;
+
+}
+.lower-div img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.section-3 .right-section{
+
+	width: 70%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+
+}
+.right-section .upper-div{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding-bottom: 4rem;
+	gap: 15rem;
+	padding: 3rem 0rem 3rem 0rem;
+}
+.right-section .upper-div h1{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 4.2rem;
+line-height: 2.2rem;
+color: #FFFFFF
+}
+.right-section .upper-div p{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 1.7rem;
+line-height: 2.4rem;
+color: #EEE2D4;
+}
+.right-section .lower-div{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 4rem;
+	padding-left: 7rem;
+}
+.right-section .lower-div h1 span{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.9rem;
+margin-right:2rem ;
+color: #F5D47C;
+}
+.right-section .lower-div h1{
+	font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 1.9rem;
+color: #FFFFFF;
+}
+.right-section .lower-div p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.7rem;
+line-height: 3.4rem;
+color: #FFFFFF;
+}
+.right-section .lower-div img{
+	position: relative;
+	left: 100%;
+	top: 10rem;
+	width: 3rem;
+}
+/*--------------------------section 3 end------------------------*/
+
+
+/*-------------------------section 4 start------------------------*/
+.section-4{
+	padding: 2rem 5rem;
+	width: 100%;
+}
+.section-4 h3{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+line-height: 70px;
+letter-spacing: 0.17em;
+color: #FFCF54;
+}
+.section-4 h1{
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 5.1rem;
+line-height: 7.0rem;
+color: #ECD8BD;
+}
+
+/*--------------------------------------section 4 end------------------------*/
+
+
+/*---------------------------------section 5 start------------------------*/
+.section-5{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	padding: 2rem 5rem;
+	gap: 4rem;
+}
+.section-5 div{
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.section-5 div img{
+	width: 80%;
+}
+
+.section-5 div button{
+	width:50%;
+	padding: 1rem;
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.6rem;
+color: #000000;
+background: #FFFFFF;
+position: relative;
+top: -1.7rem;
+box-shadow: 0.17rem 0.17rem 0.17rem lightgrey;
+}
+.section-5 div button p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.4rem;
+color: #E27E52;
+}
+.section-5 div button img{
+	width: 1rem;
+	margin-left: 2rem;
+}
+/*-------------------------------------section 5 end------------------------*/
+
+
+/*---------------------------------------section 6 start------------------------*/
+.section-6{
+	width: 100%;
+	padding:0rem 5rem;
+}
+.section-6 h1{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 5.1rem;
+color: #000000;
+line-height: 7rem;
+}
+.section-6 h3{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+line-height: 70px;
+letter-spacing: .17rem;
+color: #E27E52;
+}
+
+/*-----------------------------------------------section 6 end------------------------*/
+
+
+/*-----------------------------------------------section 7 start------------------------*/
+
+.section-7{
+	width: 100%;
+	padding: 1rem 5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+
+}
+.section-7 .societies{
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+.section-7 .societies img{
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.section-7 .societies p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+color: #000000;
+}
+.section-7 .societies h3{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.6rem;
+
+color: #000000;
+}
+
+.section-7 .societies h6{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.3rem;
+margin-bottom: 1.5rem;
+color: #E27E52;
+}
+
+.section-7 .societies hr{
+	width: 330px;
+	height: 3px;
+	transform: rotate(90deg);
+	position: relative;
+	left: 40%;
+	top: -40vh;
+	background: F0F0F0;
+}
+
+.section-7 .societies:nth-child(2){
+	margin-top: 4rem;
+}
+.section-7 .societies:nth-child(4){
+	margin-top: 6rem;
+}
+
+/*-----------------------section 7 end------------------------*/
+
+
+
+/*-----------------------start main body ------------------------*/
+.main-body{
+	width: 100%;
+	padding: 3rem 5rem;
+	height: auto;
+	background: #1B1724;
+}
+
+
+/*-----------------------section-8 start------------------------*/
+.section-8{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-bottom: 3rem;
+}
+.section-8 .left-section{
+	width:50%;
+	display: flex;
+	flex-direction: column;
+}
+.section-8 .left-section h5{
+
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+line-height: 30px;
+letter-spacing: 0.17em;
+color: #FFCF54;
+}
+
+.section-8 .left-section h1{
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 5.1rem;
+line-height: 7rem;
+color: #ECD8BD;
+}
+
+.section-8 .right-section{
+	width:50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.section-8 .right-section p{
+	font-family: 'Quicksand';
+	width: 100%;
+font-style: normal;
+font-weight: 600;
+font-size: 1.8rem;
+line-height: 3.4rem;
+text-align: right;
+color: #FFFFFF;
+}
+
+/*-----------------------Section-8 end------------------------*/
+
+/*-----------------------Section-9 start------------------------*/
+.section-9{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 4rem;
+	
+	
+
+
+}
+
+.section-9 .services{
+	width:33.33% ;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 6rem;
+	gap:2rem;
+	border: 1px solid #FFFFFF;
+	
+}
+.section-9 .services img{
+	width: 5rem;
+}
+.section-9 .services:first-child img{
+	width: 4rem;
+}
+
+.section-9 .services h3{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.9rem;
+line-height: 2.4rem;
+color: #FFFFFF;
+}
+
+.section-9 .services p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+/*-----------------------Section-9 end------------------------*/
+
+/*-----------------------Section-10 start------------------------*/
+ 
+ .section-10{
+ 	width: 100%;
+ 	display: flex;
+ 	flex-direction: row;
+ 	background: #FDEDDC;
+    clip-path: polygon(86% 0, 100% 22%, 100% 100%, 0 100%, 0 0);
+ 	
+   
+ }
+.section-10 .left-section{
+display: flex;
+flex-direction: row;
+width: 50%;
+padding: 9rem;
+align-items: center;
+
+
+
+}
+.section-10 .left-section:after{
+	content: "";
+	width: 4px;
+	height: 100px;
+	background: #E47944;
+	display: inline-block;
+	
+	
+	
+	
+	
+}
+
+.section-10 .left-section p{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 2.6rem;
+line-height: 3.9rem;
+color: #000000;
+}
+
+.section-10 .left-section img{
+	
+	width: 3.5rem;
+	position: relative;
+	left: -120%;
+	top: 205px;
+}
+
+
+.section-10 .right-section{
+	width: 50%;
+	padding: 11rem 35rem 11rem 0rem;
+	
+	
+}
+
+
+.section-10 .right-section p{
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 1.9rem;
+line-height: 3.9rem;
+color: #000000;
+text-align: left;
+}
+
+/*-----------------------Section-10 end------------------------*/
+
+/*-----------------------Section-11 start------------------------*/
+.section-11{
+	width: 100%;
+	height: auto;
+	margin-top: 3rem;
+}
+.section-11 h5{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 2.0rem;
+line-height: 70px;
+/* or 350% */
+
+letter-spacing: 0.17em;
+text-align: center;
+color: #FFCF54;
+}
+.section-11 h1{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 5.1rem;
+line-height: 70px;
+/* or 137% */
+
+text-align: center;
+color: #ECD8BD;
+}
+
+
+/*-----------------------Section-11 end------------------------*/
+
+
+
+
+
+
+
+/*-----------------------Section-12 start------------------------*/
+.section-12{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	gap: 2rem;
+	margin-top: 3rem;
+
+}
+.section-12 .reviews{
+	display: flex;
+	flex-direction: column;
+	padding: 3rem;
+	width: 33.33%;
+	height: auto;
+	border: 1px solid #FF7433;
+	border-radius: .7rem;
+	gap: 1.5rem;
+}
+.section-12 .reviews img{
+	width: 1rem;
+}
+.section-12 .reviews p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 28px;
+/* or 200% */
+color: #FFFFFF;
+text-align: justify;
+}
+.section-12 .reviews .person{
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	width: 100%;
+	height: 3.5rem;
+	align-items: center;
+}
+
+.section-12 .reviews .person h3{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.4rem;
+line-height: 18px;
+
+color: #FFFFFF;
+}
+.section-12 .reviews .person img{
+	width: 3.5rem;
+	width: 3.5rem;
+}
+.section-12 .reviews .person p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5rem;
+
+color: #FFFFFF;
+}
+
+/*-----------------------Section-12 end------------------------*/
+
+/*-----------------------End main body------------------------*/
+
+/*-----------------------start footer------------------------*/
+
+
+/*-----------------------Section-13 start------------------------*/
+
+.footer{
+	width: 100%;
+	padding: 2rem 5rem;
+	background: #1B1724;
+}
+
+.section-13{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.section-13 .footer-section{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+}
+
+
+.section-13 .footer-section h1{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 2.9rem;
+line-height: 7.0rem;
+color: #ECD8BD;
+}
+
+.section-13 .footer-section h3{
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.9rem;
+line-height: 2.4rem;
+/* identical to box height, or 126% */
+
+
+color: #FFFFFF;
+}
+
+
+.section-13 .footer-section p{
+
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.3rem;
+line-height: 2.9rem;
+/* or 223% */
+
+
+color: #FFFFFF;
+}
+
+
+.section-13 .footer-section .contacts{
+    display: flex;
+    flex-direction: column;
+	width: 100%;
+	background: #FFCF54;
+	gap: 1rem;
+	padding: 1rem;
+	background-image: linear-gradient(45deg, transparent 95%, #1B1724 5%);
+	margin-top: 2rem;
+	justify-content: center;
+
+}
+
+.section-13 .footer-section .contacts a{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 2.0rem;
+color: #000000;
+text-align: center;
+word-wrap: break-word;
+}
+
+.section-13 .footer-section .footer-links{
+	display: flex;
+	flex-direction: column;
+}
+
+.section-13 .footer-section .footer-links a{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.3rem;
+line-height: 2.9rem;
+/* or 223% */
+
+
+color: #FFFFFF;
+}
+
+
+
+/*-----------------------Section-13 end------------------------*/
+
+
+
+
+/*-----------------------Section-14 start------------------------*/
+
+.section-14{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 3rem;
+}
+
+.section-14 .rights p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 29px;
+/* or 193% */
+
+
+color: #E47944;
+}
+
+.section-14 .social-icons img{
+	width: 4.8rem;
+}
+
+
+
+
+
+/*-----------------------Section-14 end------------------------*/
+
+/*-----------------------End  footer------------------------*/
+
+/*--------------Responsive at 1280px start------------------------*/
+
+@media(max-width:1280px){
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+}
+button{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	
+	padding: 0rem 0rem 15rem 0rem;
+	width: 100%;
+	height: auto;
+	background:url(images/Group1.png)no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: center;
+}
+
+     /*----------------------section 1 start------------------------*/	
+ .section1{
+ 	width: 100%;
+ 	padding: 0rem 3rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.section1 .site-logo{
+	width: 25%;
+}
+
+.section1 .site-logo .toogle{
+	display: none;
+	}
+
+ .section1 a img{
+width: 14rem;
+}
+ .section1 .links{
+ 	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+ .links a{
+ font-family: 'Quicksand';
+ text-decoration: none;
+font-style: normal;
+font-weight: 500;
+font-size: 1.4rem;
+color: #FFFFFF;
+}
+.section1 .btn1{
+	display: flex;
+	justify-content: flex-end;
+	width: 25%;
+}
+.section1 .btn1 button{
+ width: 12rem;
+ padding: 1rem 1rem;
+ border: none;
+ background: #FF7433;
+ color: white;
+ font-style: normal;
+font-weight: 600;
+ font-size: 1.2rem;
+ font-family: 'Quicksand';
+ cursor: pointer;
+}
+  /*---------------------------------section 1 end------------------------*/	
+
+  /*---------------------------------section 2 start------------------------*/
+     .section2{
+     	display: flex;
+     	flex-direction: row;
+     	width: 100%;
+     	height: auto;
+     	padding: 5rem 0rem 3rem 3rem;
+     	position: relative;
+     	gap: 5rem;
+
+     }
+     .section2 .architecture{
+     	display: flex;
+     	flex-direction: column;
+     	justify-content: center;
+     	gap: 5rem;
+        width: 40%;
+        height: inherit;
+     }
+     .section2 .architecture h1{
+     	font-style: normal;
+        font-weight: 600;
+        font-size: 5rem;
+        color: #ECD8BD;
+     	font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+     }
+
+     .section2 .architecture p{
+     	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.9rem;
+color: #FFFFFF;
+     }
+
+     .architecture .btn-group{
+     	display: flex;
+     	flex-direction: row;
+     	gap: 2rem;
+     	align-items: center;
+     }
+
+      .architecture .btn-group button{
+     	width: 14rem;
+     	padding: 1rem 1rem;
+     	background: #FFCF54;
+     	font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.6rem;
+        color: #1B1724;
+
+     }
+      .architecture .btn-group button img{
+     	width: 1rem;
+     }
+
+     .architecture .btn-group a{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.6rem;
+color: #FFFFFF;
+     }
+     .architecture .btn-group a:after{
+     	content: ">";
+     	color:  #BB7455;
+     	width: 2rem;
+     	margin-left: 1.2rem;
+     	font-size: 1.2rem;
+     }
+
+     .section2 .parks{
+     
+     	width: 60%;
+     	height: inherit;
+     	padding-right: 0px;
+     	
+     }
+     .section2 .parks img{
+     	width: 100%;
+     	height: auto;
+     }
+
+    /*--------------------------section 2 end------------------------*/		
+
+
+/*----------------------------------section 3 start------------------------*/
+.section-3{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	padding: 2rem 3rem;
+}
+.section-3 .left-section{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: auto;
+	justify-content: space-evenly;
+	align-items: stretch;
+	gap: 3rem;
+}
+.left-section .upper-div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.left-section .upper-div div{
+	padding: 3rem 0;
+}
+.left-section .upper-div p{
+	color: #FFFFFF;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.4rem;
+line-height: 1.6rem;
+letter-spacing: .17rem;
+color: #FFFFFF;
+margin-bottom: 1rem;
+}
+
+.left-section .upper-div div img{
+	width: 3.1rem;
+height: 3.103rem;
+
+}
+.left-section .upper-div .building{
+width: 70%;
+height: auto;
+
+}
+.lower-div img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.section-3 .right-section{
+
+	width: 70%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+
+}
+.right-section .upper-div{
+	padding-left: 14rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding-bottom: 3rem;
+	gap: 6rem;
+	
+}
+.right-section .upper-div h1{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 3.5rem;
+line-height: 3rem;
+color: #FFFFFF
+}
+.right-section .upper-div p{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 1.4rem;
+line-height: 1.4rem;
+color: #EEE2D4;
+}
+.right-section .lower-div{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 3rem;
+	padding-left: 7rem;
+}
+.right-section .lower-div h1 span{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.6rem;
+margin-right:2rem ;
+color: #F5D47C;
+}
+.right-section .lower-div h1{
+	font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 1.6rem;
+color: #FFFFFF;
+}
+.right-section .lower-div p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+color: #FFFFFF;
+text-align: justify;
+}
+.right-section .lower-div img{
+	position: relative;
+	left: 100%;
+	top: 8rem;
+	width: 2.5rem;
+}
+/*--------------------------section 3 end------------------------*/
+
+
+/*-------------------------section 4 start------------------------*/
+.section-4{
+	padding: 2rem 5rem;
+	width: 100%;
+}
+.section-4 h3{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.7rem;
+line-height: 40px;
+letter-spacing: 0.17em;
+color: #FFCF54;
+}
+.section-4 h1{
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 3.7rem;
+line-height: 40px;
+color: #ECD8BD;
+}
+
+/*--------------------------------------section 4 end------------------------*/
+
+
+/*---------------------------------section 5 start------------------------*/
+.section-5{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2rem 5rem;
+	gap: 4rem;
+}
+.section-5 div{
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.section-5 div img{
+	width: 80%;
+}
+
+.section-5 div button{
+	width:70% ;
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.2rem;
+color: #000000;
+background: #FFFFFF;
+position: relative;
+box-shadow: .17rem .17rem .17rem lightgrey;
+top: -1.7rem;
+}
+.section-5 div button p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.2rem;
+color: #E27E52;
+}
+.section-5 div button img{
+	width: .7rem;
+	margin-left: 2rem;
+}
+/*-------------------------------------section 5 end------------------------*/
+
+
+/*---------------------------------------section 6 start------------------------*/
+.section-6{
+	width: 100%;
+	padding:0rem 5rem;
+}
+.section-6 h1{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 3.3rem;
+color: #000000;
+}
+.section-6 h3{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.7rem;
+line-height: 40px;
+color: #E27E52;
+}
+
+/*-----------------------------------------------section 6 end------------------------*/
+
+
+/*-----------------------------------------------section 7 start------------------------*/
+
+.section-7{
+	width: 100%;
+	padding: 1rem 5rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 2rem;
+
+}
+.section-7 .societies{
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+
+.section-7 .societies img{
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.section-7 .societies p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+color: #000000;
+}
+.section-7 .societies h3{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.6rem;
+
+color: #000000;
+}
+
+.section-7 .societies h6{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.5rem;
+margin-bottom: 1.5rem;
+color: #E27E52;
+}
+
+.section-7 .societies hr{
+	display: none;
+	width: 500px;
+	height: 3px;
+	transform: rotate(90deg);
+	position: relative;
+	left: 10%;
+	top: -40vh;
+	background: F0F0F0;
+}
+
+.section-7 .societies:nth-child(2){
+	margin-top: 0rem;
+}
+.section-7 .societies:nth-child(4){
+	margin-top: 0rem;
+}
+
+/*-----------------------section 7 end------------------------*/
+
+
+/*-----------------------start main body ------------------------*/
+
+
+.main-body{
+	width: 100%;
+	padding: 3rem 5rem;
+	height: auto;
+	background: #1B1724;
+}
+
+
+/*-----------------------section-8 start------------------------*/
+.section-8{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 3rem;
+}
+.section-8 .left-section{
+	width:50%;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.section-8 .left-section h5{
+
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.8rem;
+line-height: 30px;
+letter-spacing: 0.17em;
+color: #FFCF54;
+}
+
+.section-8 .left-section h1{
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 1.4rem;
+line-height: 3rem;
+color: #ECD8BD;
+}
+
+.section-8 .right-section{
+	width:50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.section-8 .right-section p{
+	font-family: 'Quicksand';
+	width: 100%;
+font-style: normal;
+font-weight: 600;
+font-size: 1.6rem;
+line-height: 34px;
+text-align: right;
+color: #FFFFFF;
+}
+
+/*-----------------------Section-8 end------------------------*/
+
+/*-----------------------Section-9 start------------------------*/
+.section-9{
+	width: 100%;
+	display: flex;
+	padding-bottom: 4rem;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+}
+
+.section-9 .services{
+	width:33.33% ;
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;
+	padding: 3rem;
+	border: 1px solid #FFFFFF;
+	
+}
+.section-9 .services img{
+	width: 3.8rem;
+}
+.section-9 .services:first-child img{
+	width: 3rem;
+}
+
+.section-9 .services h3{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.7rem;
+line-height: 24px;
+color: #FFFFFF;
+text-align: justify;
+}
+
+.section-9 .services p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 2.4rem;
+color: #FFFFFF;
+}
+
+/*-----------------------Section-9 end------------------------*/
+
+/*-----------------------Section-10 start------------------------*/
+ 
+ .section-10{
+ 	width: 100%;
+ 	display: flex;
+ 	flex-direction: row;
+ 	background: #FDEDDC;
+	 polygon(83% 0, 100% 22%, 100% 100%, 0 100%, 0 0);
+ 	
+   
+ }
+.section-10 .left-section{
+display: flex;
+flex-direction: row;
+width: 50%;
+padding: 5rem;
+align-items: center;
+
+
+
+}
+.section-10 .left-section:after{
+	content: "";
+	width: 7px;
+	height: auto;
+	background: red;
+	display: inline-block;
+	
+	
+	
+	
+	
+}
+
+.section-10 .left-section p{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 2rem;
+line-height: 3.0rem;
+color: #000000;
+}
+
+.section-10 .left-section img{
+	width: 2rem;
+	position: relative;
+	left: -115%;
+	top: 20vh;
+}
+
+
+.section-10 .right-section{
+	width: 50%;
+	padding: 5rem;
+	
+	
+}
+
+
+.section-10 .right-section p{
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 1.8rem;
+line-height: 2.4rem;
+/* or 168% */
+
+
+color: #000000;
+}
+
+/*-----------------------Section-10 end------------------------*/
+
+/*-----------------------Section-11 start------------------------*/
+.section-11{
+	width: 100%;
+	height: auto;
+	margin-top: 3rem;
+}
+.section-11 h5{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 2.0rem;
+line-height: 70px;
+/* or 350% */
+
+letter-spacing: 0.17em;
+text-align: center;
+color: #FFCF54;
+}
+.section-11 h1{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 5.1rem;
+line-height: 70px;
+/* or 137% */
+
+text-align: center;
+color: #ECD8BD;
+}
+
+
+/*-----------------------Section-11 end------------------------*/
+
+
+
+
+
+
+
+/*-----------------------Section-12 start------------------------*/
+.section-12{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	gap: 2rem;
+	margin-top: 3rem;
+
+}
+.section-12 .reviews{
+	display: flex;
+	flex-direction: column;
+	padding: 3rem;
+	width: 33.33%;
+	height: auto;
+	border: 1px solid #FF7433;
+	border-radius: .7rem;
+	gap: 1.5rem;
+}
+.section-12 .reviews img{
+	width: 1.2rem;
+	margin-right: .4rem;
+}
+.section-12 .reviews p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 2.4rem;
+/* or 200% */
+color: #FFFFFF;
+text-align: justify;
+}
+.section-12 .reviews .person{
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	width: 100%;
+	height: 3.5rem;
+	align-items: center;
+}
+
+.section-12 .reviews .person h3{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.4rem;
+line-height: 18px;
+
+color: #FFFFFF;
+}
+.section-12 .reviews .person img{
+	width: 3.5rem;
+	width: 3.5rem;
+}
+.section-12 .reviews .person p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5rem;
+
+color: #FFFFFF;
+}
+
+/*-----------------------Section-12 end------------------------*/
+
+/*-----------------------End main body------------------------*/
+
+/*-----------------------start footer------------------------*/
+
+
+/*-----------------------Section-13 start------------------------*/
+
+.footer{
+	width: 100%;
+	padding: 2rem 5rem;
+	background: #1B1724;
+}
+
+.section-13{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.section-13 .footer-section{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+}
+
+
+.section-13 .footer-section h1{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 2rem;
+line-height: 70px;
+color: #ECD8BD;
+}
+
+.section-13 .footer-section h3{
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 24px;
+/* identical to box height, or 126% */
+
+
+color: #FFFFFF;
+}
+
+
+.section-13 .footer-section p{
+
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.3rem;
+line-height: 29px;
+/* or 223% */
+
+
+color: #FFFFFF;
+}
+
+
+.section-13 .footer-section .contacts{
+    display: flex;
+    flex-direction: column;
+	width: 100%;
+	background: #FFCF54;
+	gap: 1rem;
+	padding: 1rem;
+	background-image: linear-gradient(45deg, transparent 95%, #1B1724 5%);
+	margin-top: 2rem;
+	justify-content: center;
+
+}
+
+.section-13 .footer-section .contacts a{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.2rem;
+line-height: 20px;
+color: #000000;
+text-align: center;
+word-wrap: break-word;
+}
+
+.section-13 .footer-section .footer-links{
+	display: flex;
+	flex-direction: column;
+}
+
+.section-13 .footer-section .footer-links a{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 39px;
+/* or 223% */
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+
+color: #FFFFFF;
+}
+
+
+
+/*-----------------------Section-13 end------------------------*/
+
+
+
+
+/*-----------------------Section-14 start------------------------*/
+
+.section-14{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 3rem;
+}
+
+.section-14 .rights p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 29px;
+/* or 193% */
+
+
+color: #E47944;
+}
+
+.section-14 .social-icons img{
+	width: 4rem;
+}
+
+
+}
+
+
+/*-----------------------Section-14 end------------------------*/
+
+/*-----------------------End  footer------------------------*/
+
+
+
+
+
+
+
+
+
+/*--------------Responsive at 1280px end------------------------*/
+
+
+
+
+
+/*--------------Responsive at 980px start------------------------*/
+  @media(max-width:980px){
+
+  *{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; 
+}
+html{
+	font-size: 62.5%;
+}
+button{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	
+	padding: 0rem 0rem 15rem 0rem;
+	width: 100%;
+	height: auto;
+	padding-bottom: 30rem;
+	background:url(images/Group1.png)no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: center;
+}
+
+     /*----------------------section 1 start------------------------*/	
+ .section1{
+ 	width: 100%;
+	height:auto;
+ 	padding: 0rem 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.section1 .site-logo{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	background: rgb(15, 15, 15);
+}
+
+.section1 .site-logo .hamburger{
+	display: block;
+	cursor: pointer;
+	}
+
+ .section1 a img{
+width: 14rem;
+}
+ .section1 .links{
+	
+ 	width: 100%;
+	height: auto;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap:1.5rem;
+	background: rgb(15, 15, 15);
+	padding: 3rem 0rem;
+}
+ .links a{
+ font-family: 'Quicksand';
+ text-decoration: none;
+font-style: normal;
+font-weight: 500;
+font-size: 1.3rem;
+color: #FFFFFF;
+}
+.section1 .btn1{
+	background:rgb(15, 15, 15) ;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	
+	padding-bottom: 2rem;
+}
+.section1 .btn1 button{
+ width: 10rem;
+ padding: .7rem 1rem;
+ border: none;
+ background: #FF7433;
+ color: white;
+ font-style: normal;
+font-weight: 600;
+ font-size: 1.2rem;
+ font-family: 'Quicksand';
+ cursor: pointer;
+ margin-right: 2rem;
+}
+  /*---------------------------------section 1 end------------------------*/	
+
+  /*---------------------------------section 2 start------------------------*/
+     .section2{
+     	display: flex;
+     	flex-direction: row;
+     	width: 100%;
+     	height: auto;
+     	padding: 3rem 0rem 2rem 3rem;
+     	position: relative;
+     	gap: 5rem;
+
+     }
+     .section2 .architecture{
+     	display: flex;
+     	flex-direction: column;
+     	justify-content: flex-start;
+     	gap: 1.7rem;
+        width: 40%;
+        height: inherit;
+     }
+     .section2 .architecture h1{
+     	font-style: normal;
+        font-weight: 700;
+        font-size: 4rem;
+        color: #ECD8BD;
+     	font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+     }
+
+     .section2 .architecture p{
+     	font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #FFFFFF;
+     }
+
+     .architecture .btn-group{
+     	display: flex;
+     	flex-direction: row;
+     	width: 100%;
+     	gap: 2rem;
+     	justify-content: space-between;
+     	align-items: center;
+     }
+
+      .architecture .btn-group button{
+     	width: 10rem;
+     	padding: .7rem .7rem;
+     	background: #FFCF54;
+     	font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        color: #1B1724;
+
+     }
+      .architecture .btn-group button img{
+     	width: 1rem;
+     }
+
+     .architecture .btn-group a{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1rem;
+color: #FFFFFF;
+     }
+     .architecture .btn-group a:after{
+     	content: ">";
+     	color:  #BB7455;
+     	width: 2rem;
+     	margin-left: 1rem;
+     	font-size: 1.3rem;
+     }
+
+     .section2 .parks{
+     
+     	width: 60%;
+     	height: inherit;
+     	
+     	
+     }
+     .section2 .parks img{
+     	width: 100%;
+     	height: auto;
+     }
+
+    /*--------------------------section 2 end------------------------*/		
+
+
+/*----------------------------------section 3 start------------------------*/
+.section-3{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	padding: 2rem 3rem;
+}
+.section-3 .left-section{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	justify-content: space-between;
+	align-items: center;
+	gap: 3rem;
+}
+.left-section .upper-div{
+	display: flex;
+	width: 50%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+}
+.left-section .upper-div div{
+	padding: 3rem 0;
+}
+.left-section .upper-div p{
+	color: #FFFFFF;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.2rem;
+line-height: 1.4rem;
+color: #FFFFFF;
+margin-bottom: 1rem;
+}
+
+.left-section .upper-div div img{
+	width: 3.1rem;
+height: 3.103rem;
+
+}
+.left-section .upper-div .building{
+width: 80%;
+height: auto;
+
+}
+
+.left-section .lower-div{
+	display: flex;
+	justify-content: flex-end;
+}
+.left-section .lower-div img{
+    width: 90%;
+    height: auto;
+    transform: rotate(90deg);
+}
+
+
+
+.section-3 .right-section{
+
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+
+}
+.right-section .upper-div{
+	display: flex;
+	flex-direction: column;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
+	align-items: flex-start;
+	padding-left: 0;
+	justify-content: space-between;
+	width: 30%;
+	gap: 4rem;
+	
+	
+}
+.right-section .upper-div h1{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 3.2rem;
+line-height: 2.2rem;
+color: #FFFFFF
+}
+.right-section .upper-div p{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 1.2rem;
+line-height: 1rem;
+color: #EEE2D4;
+}
+.right-section .lower-div{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 4rem;
+	padding-left: 7rem;
+	width: 70%;
+}
+.right-section .lower-div h1 span{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.2rem;
+margin-right:2rem ;
+color: #F5D47C;
+}
+.right-section .lower-div h1{
+	font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 1.2rem;
+color: #FFFFFF;
+}
+.right-section .lower-div p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.2rem;
+color: #FFFFFF;
+text-align: justify;
+}
+.right-section .lower-div img{
+	position: relative;
+	left: 100%;
+	top: 10rem;
+	width: 3rem;
+}
+/*--------------------------section 3 end------------------------*/
+
+
+/*-------------------------section 4 start------------------------*/
+.section-4{
+	padding: 2rem 5rem;
+	width: 100%;
+}
+.section-4 h3{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.6rem;
+line-height: 4.0rem;
+letter-spacing: 0.17em;
+color: #FFCF54;
+text-align: center;
+}
+.section-4 h1{
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 3.7rem;
+line-height: 3.0rem;
+color: #ECD8BD;
+text-align: center;
+}
+
+
+/*--------------------------------------section 4 end------------------------*/
+
+
+/*---------------------------------section 5 start------------------------*/
+.section-5{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    width: 100%;
+	padding: 2rem 5rem;
+	gap: 1rem;
+}
+.section-5 div{
+	width:48%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.section-5 div img{
+	width: 80%;
+}
+
+.section-5 div button{
+	width:15rem ;
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.2rem;
+color: #000000;
+background: #FFFFFF;
+position: relative;
+top: -1.7rem;
+box-shadow: 0.17rem 0.17rem 0.17rem lightgrey;
+}
+.section-5 div button p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.2rem;
+color: #E27E52;
+}
+.section-5 div button img{
+	width: 1rem;
+	margin-left: 2rem;
+}
+/*-------------------------------------section 5 end------------------------*/
+
+
+/*---------------------------------------section 6 start------------------------*/
+.section-6{
+	width: 100%;
+	padding:0rem 5rem;
+}
+.section-6 h1{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 2.5rem;
+color: #000000;
+}
+.section-6 h3{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.6rem;
+line-height: 30px;
+color: #E27E52;
+}
+
+/*-----------------------------------------------section 6 end------------------------*/
+
+
+/*-----------------------------------------------section 7 start------------------------*/
+
+.section-7{
+	width: 100%;
+	padding: 1rem 5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+}
+.section-7 .societies{
+	width: 48%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+
+.section-7 .societies img{
+	width: 80%;
+	margin-bottom: 2rem;
+}
+
+.section-7 .societies p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.1rem;
+color: #000000;
+text-align: justify;
+width: 80%;
+}
+.section-7 .societies h3{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.6rem;
+
+color: #000000;
+}
+
+.section-7 .societies h6{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.3rem;
+margin-bottom: 1.5rem;
+color: #E27E52;
+}
+
+.section-7 .societies hr{
+	display: none;
+	width: 500px;
+	height: 3px;
+	transform: rotate(90deg);
+	position: relative;
+	left: 10%;
+	top: -40vh;
+	background: F0F0F0;
+}
+
+.section-7 .societies:nth-child(2){
+	margin-top: 0rem;
+}
+.section-7 .societies:nth-child(4){
+	margin-top: 0rem;
+}
+
+/*-----------------------section 7 end------------------------*/
+
+
+
+/*-----------------------start main body ------------------------*/
+.main-body{
+	width: 100%;
+	padding: 3rem 5rem;
+	height: auto;
+	background: #1B1724;
+}
+
+
+/*-----------------------section-8 start------------------------*/
+.section-8{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-bottom: 3rem;
+}
+.section-8 .left-section{
+	width:50%;
+	display: flex;
+	flex-direction: column;
+}
+.section-8 .left-section h5{
+
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.8rem;
+line-height: 30px;
+letter-spacing: 0.17em;
+color: #FFCF54;
+}
+
+.section-8 .left-section h1{
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 3rem;
+line-height: 3rem;
+color: #ECD8BD;
+}
+
+.section-8 .right-section{
+	width:50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.section-8 .right-section p{
+	font-family: 'Quicksand';
+	width: 100%;
+font-style: normal;
+font-weight: 600;
+font-size: 1.8rem;
+line-height: 34px;
+text-align: right;
+color: #FFFFFF;
+}
+
+/*-----------------------Section-8 end------------------------*/
+
+/*-----------------------Section-9 start------------------------*/
+.section-9{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 4rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
+
+
+}
+
+.section-9 .services{
+	width:48% ;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 2rem;
+	border: 1px solid #FFFFFF;
+	gap: 2rem;
+}
+.section-9 .services img{
+	width: 4rem;
+}
+.section-9 .services:first-child img{
+	width: 3.1rem;
+}
+
+.section-9 .services h3{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.6rem;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.section-9 .services p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 2.4rem;
+color: #FFFFFF;
+}
+
+/*-----------------------Section-9 end------------------------*/
+
+/*-----------------------Section-10 start------------------------*/
+ 
+ .section-10{
+ 	width: 100%;
+ 	display: flex;
+ 	flex-direction: row;
+ 	background: #FDEDDC;
+	 clip-path:   polygon(86% 0, 100% 22%, 100% 100%, 0 100%, 0 0);
+ 	
+   
+ }
+.section-10 .left-section{
+display: flex;
+flex-direction: row;
+width: 50%;
+padding: 3.5rem;
+align-items: center;
+
+
+
+}
+.section-10 .left-section:after{
+	content: "";
+	width: 4px;
+	height: 100px;
+	background: red;
+	display: inline-block;
+	
+	
+	
+	
+	
+}
+
+.section-10 .left-section p{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 1.8rem;
+line-height: 3.0rem;
+color: #000000;
+}
+
+.section-10 .left-section img{
+	width: 2rem;
+	position: relative;
+	left: -113%;
+	top: 11rem;
+}
+
+
+.section-10 .right-section{
+	width: 50%;
+	padding: 3.5rem;
+	
+	
+}
+
+
+.section-10 .right-section p{
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 1.6rem;
+line-height: 2.4rem;
+/* or 168% */
+
+
+color: #000000;
+}
+
+/*-----------------------Section-10 end------------------------*/
+
+/*-----------------------Section-11 start------------------------*/
+.section-11{
+	width: 100%;
+	height: auto;
+	margin-top: 3rem;
+}
+.section-11 h5{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 2.0rem;
+line-height: 70px;
+/* or 350% */
+
+letter-spacing: 0.17em;
+text-align: center;
+color: #FFCF54;
+}
+.section-11 h1{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 5.1rem;
+line-height: 70px;
+/* or 137% */
+
+text-align: center;
+color: #ECD8BD;
+}
+
+
+/*-----------------------Section-11 end------------------------*/
+
+
+
+
+
+
+
+/*-----------------------Section-12 start------------------------*/
+.section-12{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	width: 100%;
+	height: auto;
+	gap: 2rem;
+	margin-top: 3rem;
+
+}
+.section-12 .reviews{
+	display: flex;
+	flex-direction: column;
+	padding: 3rem;
+	width: 48.33%;
+	height: auto;
+	border: 1px solid #FF7433;
+	border-radius: .7rem;
+	gap: 1.5rem;
+}
+.section-12 .reviews img{
+	width: 1rem;
+}
+.section-12 .reviews p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 28px;
+/* or 200% */
+color: #FFFFFF;
+text-align: justify;
+}
+.section-12 .reviews .person{
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	width: 100%;
+	height: 3.5rem;
+	align-items: center;
+}
+
+.section-12 .reviews .person h3{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.4rem;
+line-height: 18px;
+
+color: #FFFFFF;
+}
+.section-12 .reviews .person img{
+	width: 3.5rem;
+	width: 3.5rem;
+}
+.section-12 .reviews .person p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5rem;
+
+color: #FFFFFF;
+}
+
+/*-----------------------Section-12 end------------------------*/
+
+/*-----------------------End main body------------------------*/
+
+/*-----------------------start footer------------------------*/
+
+
+/*-----------------------Section-13 start------------------------*/
+
+.footer{
+	width: 100%;
+	padding: 2rem 5rem;
+	background: #1B1724;
+}
+
+.section-13{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+.section-13 .footer-section{
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1rem;
+
+}
+
+
+.section-13 .footer-section h1{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 2.5rem;
+line-height: 70px;
+color: #ECD8BD;
+}
+
+.section-13 .footer-section h3{
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 24px;
+/* identical to box height, or 126% */
+
+
+color: #FFFFFF;
+}
+
+
+.section-13 .footer-section p{
+
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.3rem;
+line-height: 29px;
+/* or 223% */
+
+
+color: #FFFFFF;
+}
+
+
+.section-13 .footer-section .contacts{
+    display: flex;
+    flex-direction: column;
+	width: 100%;
+	background: #FFCF54;
+	gap: 1rem;
+	padding: 1rem;
+	background-image: linear-gradient(45deg, transparent 95%, #1B1724 5%);
+	margin-top: 2rem;
+	justify-content: center;
+
+}
+
+.section-13 .footer-section .contacts a{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.4rem;
+line-height: 20px;
+color: #000000;
+text-align: center;
+word-wrap: break-word;
+}
+
+.section-13 .footer-section .footer-links{
+	display: flex;
+	flex-direction: column;
+}
+
+.section-13 .footer-section .footer-links a{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 39px;
+/* or 223% */
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+
+color: #FFFFFF;
+}
+
+
+
+/*-----------------------Section-13 end------------------------*/
+
+
+
+
+/*-----------------------Section-14 start------------------------*/
+
+.section-14{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 3rem;
+}
+
+.section-14 .rights p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 29px;
+/* or 193% */
+
+
+color: #E47944;
+}
+
+.section-14 .social-icons img{
+	width: 3rem;
+}
+
+}
+
+
+
+/*-----------------------Section-14 end------------------------*/
+
+/*-----------------------End  footer------------------------*/
+
+
+
+
+/*------------------------------Responsive at 980px end-----------*/
+
+
+
+
+
+
+
+
+
+/*--------------Responsive at 768px start------------------------*/
+
+
+@media(max-width:768px){
+
+
+.header{
+	
+	padding: 0rem 0rem 35rem 0rem;
+	width: 100%;
+	height: auto;
+	background:url(images/Group1.png)no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: center;
+}
+
+     /*----------------------section 1 start------------------------*/	
+ .section1{
+ 	width: 100%;
+ 	padding: 0rem 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.section1 .site-logo{
+	
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.section1 .site-logo .toogle{
+	width: 1.5rem;
+	height: 1.5rem;
+	display: block;
+	cursor: pointer;
+	
+	
+}
+
+ .section1 a img{
+width: 10rem;
+}
+ .section1 .links{
+ 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5rem;
+	
+}
+ .links a{
+ font-family: 'Quicksand';
+ text-decoration: none;
+font-style: normal;
+font-weight: 500;
+font-size: .8rem;
+color: #FFFFFF;
+}
+.section1 .btn1{
+	
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	padding-top: 2rem;
+
+}
+.section1 .btn1 button{
+ width: 8rem;
+ padding: .5rem .8rem;
+ border: none;
+ background: #FF7433;
+ color: white;
+ font-style: normal;
+font-weight: 300;
+ font-size: .9rem;
+ font-family: 'Quicksand';
+ cursor: pointer;
+}
+  /*---------------------------------section 1 end------------------------*/	
+
+  /*---------------------------------section 2 start------------------------*/
+     .section2{
+     	display: flex;
+     	flex-direction: column;
+     	width: 100%;
+     	height: auto;
+     	padding: 1rem 2rem 1rem 2rem;
+     	position: relative;
+     	gap: 2rem;
+
+     }
+     .section2 .architecture{
+     	display: flex;
+     	flex-direction: column;
+     	justify-content: space-between;
+     	gap: 2rem;
+        width: 100%;
+        height: inherit;
+     }
+     .section2 .architecture h1{
+     	font-style: normal;
+        font-weight: 800;
+        font-size: 3rem;
+        color: #ECD8BD;
+     	font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+     	word-wrap: break-word;
+     	text-align: center;
+     }
+
+     .section2 .architecture p{
+     	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.2rem;
+color: #FFFFFF;
+text-align: center;
+     }
+
+     .architecture .btn-group{
+     	display: flex;
+     	flex-direction: row;
+        justify-content: space-evenly;
+     	align-items: center;
+     }
+
+      .architecture .btn-group button{
+     	width: 10rem;
+     	padding: .7rem .6rem;
+     	background: #FFCF54;
+     	font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        color: #1B1724;
+
+     }
+      .architecture .btn-group button img{
+     	width: .7rem;
+     }
+
+     .architecture .btn-group a{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 300;
+font-size: .7rem;
+color: #FFFFFF;
+     }
+     .architecture .btn-group a:after{
+     	content: ">";
+     	color:  #BB7455;
+     	width: 2rem;
+     	margin-left: 1rem;
+     	font-size: 1.2rem;
+     }
+
+     .section2 .parks{
+        display: flex;
+        justify-content: flex-end;
+     	width: 100%;
+     	height: inherit;
+     	
+     	
+     }
+     .section2 .parks img{
+     	width: 70%;
+     	height: auto;
+     }
+
+    /*--------------------------section 2 end------------------------*/		
+
+
+/*----------------------------------section 3 start------------------------*/
+.section-3{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	padding: 1rem 2rem;
+}
+.left-section{
+	order: 2;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	justify-content: space-between;
+	align-items: stretch;
+	padding: 2rem 0rem;
+	
+}
+.left-section .upper-div{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-bottom: 2rem;
+}
+.left-section .upper-div div{
+	padding: 3rem 0;
+}
+.left-section .upper-div p{
+	color: #FFFFFF;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1rem;
+line-height: 1.4rem;
+color: #FFFFFF;
+margin-bottom: 1rem;
+}
+
+.left-section .upper-div div img{
+	width: 2.5rem;
+   height: 2.103rem;
+
+}
+.left-section .upper-div .building{
+width: 60%;
+height: auto;
+
+}
+
+
+.left-section .upper-div{
+	width: 100%;
+}
+
+.left-section .lower-div{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+
+.left-section .lower-div img{
+    width: 80%;
+    height: auto;
+}
+
+
+
+.section-3 .right-section{
+    order: 1;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+
+}
+.right-section .upper-div{
+	padding-top: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 5rem;
+	
+}
+.right-section .upper-div h1{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 3.2rem;
+line-height: 2.2rem;
+color: #FFFFFF
+}
+.right-section .upper-div p{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 1.2rem;
+line-height: 1.4rem;
+color: #EEE2D4;
+}
+.right-section .lower-div{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 0rem;
+	
+	
+	
+	
+}
+.right-section .lower-div h1 span{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.2rem;
+margin-right:2rem ;
+color: #F5D47C;
+}
+.right-section .lower-div h1{
+	font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 1.2rem;
+color: #FFFFFF;
+}
+.right-section .lower-div p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+color: #FFFFFF;
+text-align: justify;
+}
+.right-section .lower-div img{
+	position: relative;
+	left: 99%;
+	top: 10rem;
+	width: 2rem;
+}
+/*--------------------------section 3 end------------------------*/
+
+
+/*-------------------------section 4 start------------------------*/
+.section-4{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem 2rem;
+	width: 100%;
+}
+.section-4 h3{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.6rem;
+line-height: 2.5rem;
+letter-spacing: 0.17em;
+color: #FFCF54;
+}
+.section-4 h1{
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+letter-spacing: .5rem;
+font-size: 3.5rem;
+line-height: 4rem;
+color: #ECD8BD;
+}
+
+/*--------------------------------------section 4 end------------------------*/
+
+
+/*---------------------------------section 5 start------------------------*/
+.section-5{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	padding: 2rem 2rem;
+	gap: 4rem;
+}
+.section-5 div{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.section-5 div img{
+	width: 80%;
+}
+
+.section-5 div button{
+	width:60%;
+	height: auto;
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 300;
+font-size: 1rem;
+color: #000000;
+background: #FFFFFF;
+position: relative;
+top: -1.7rem;
+padding: .7rem;
+box-shadow: 0.17rem 0.17rem 0.17rem lightgrey;
+}
+.section-5 div button p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1rem;
+color: #E27E52;
+}
+.section-5 div button img{
+	width: 1rem;
+	margin-left: 2rem;
+}
+/*-------------------------------------section 5 end------------------------*/
+
+
+/*---------------------------------------section 6 start------------------------*/
+.section-6{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding:0rem 5rem;
+}
+.section-6 h1{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 2.5rem;
+color: #000000;
+}
+.section-6 h3{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 3rem;
+color: #E27E52;
+}
+
+/*-----------------------------------------------section 6 end------------------------*/
+
+
+/*-----------------------------------------------section 7 start------------------------*/
+
+.section-7{
+	width: 100%;
+	padding: 0rem 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.section-7 .societies{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+
+.section-7 .societies img{
+	width: 90%;
+	margin-bottom: 2rem;
+}
+
+.section-7 .societies p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.1rem;
+color: #000000;
+width: 90%;
+text-align: justify;
+}
+.section-7 .societies h3{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.6rem;
+
+color: #000000;
+}
+
+.section-7 .societies h6{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.3rem;
+margin-bottom: 1.5rem;
+color: #E27E52;
+}
+
+.section-7 .societies hr{
+	display: none;
+	width: 500px;
+	height: 3px;
+	transform: rotate(90deg);
+	position: relative;
+	left: 54%;
+	top: -40vh;
+	background: F0F0F0;
+}
+
+.section-7 .societies:nth-child(2){
+	margin-top: 4rem;
+}
+.section-7 .societies:nth-child(4){
+	margin-top: 6rem;
+}
+
+/*-----------------------section 7 end------------------------*/
+
+
+
+
+
+
+
+
+/*-----------------------start main body ------------------------*/
+.main-body{
+	width: 100%;
+	padding: 3rem 5rem;
+	height: auto;
+	background: #1B1724;
+}
+
+
+/*-----------------------section-8 start------------------------*/
+.section-8{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 3rem;
+}
+.section-8 .left-section{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+}
+.section-8 .left-section h5{
+
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.8rem;
+line-height: 30px;
+letter-spacing: 0.17em;
+color: #FFCF54;
+text-align: center;
+}
+
+.section-8 .left-section h1{
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 3rem;
+line-height: 3rem;
+color: #ECD8BD;
+text-align: center;
+}
+
+.section-8 .right-section{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.section-8 .right-section p{
+	font-family: 'Quicksand';
+	width: 100%;
+font-style: normal;
+font-weight: 600;
+font-size: 1.8rem;
+line-height: 2rem;
+text-align: center;
+color: #FFFFFF;
+}
+
+/*-----------------------Section-8 end------------------------*/
+
+/*-----------------------Section-9 start------------------------*/
+.section-9{
+	width: 100%;
+	display: flex;
+	padding-bottom: 4rem;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+}
+
+.section-9 .services{
+	width:100% ;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 2rem;
+	border: 1px solid #FFFFFF;
+	gap: 2rem;
+}
+.section-9 .services img{
+	width: 3rem;
+}
+.section-9 .services:first-child img{
+	width: 2.3rem;
+}
+
+.section-9 .services h3{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 1.4rem;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.section-9 .services p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.2rem;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+/*-----------------------Section-9 end------------------------*/
+
+/*-----------------------Section-10 start------------------------*/
+ 
+ .section-10{
+ 	width: 100%;
+ 	display: flex;
+ 	flex-direction: column;
+ 	background: #FDEDDC;
+     clip-path:   polygon(86% 0, 100% 22%, 100% 100%, 0 100%, 0 0);
+ 	
+   
+ }
+.section-10 .left-section{
+order: 1;
+display: flex;
+flex-direction: column;
+width: 100%;
+padding: 3.5rem;
+align-items: center;
+
+
+
+}
+.section-10 .left-section:after{
+	content: "";
+	width: 120px;
+	height: 4px;
+	background: red;
+	display: block;
+	
+	
+	
+	
+	
+}
+
+.section-10 .left-section p{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 1.8rem;
+line-height: 3.0rem;
+color: #000000;
+}
+
+.section-10 .left-section img{
+	width: 2rem;
+	position: relative;
+	left: -64%;
+	top: 20rem;
+}
+
+
+.section-10 .right-section{
+	width: 100%;
+	padding: 3.5rem;
+	order: 2;
+	
+	
+}
+
+
+.section-10 .right-section p{
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 1.6rem;
+line-height: 2.4rem;
+/* or 168% */
+
+
+color: #000000;
+}
+
+/*-----------------------Section-10 end------------------------*/
+
+/*-----------------------Section-11 start------------------------*/
+.section-11{
+	width: 100%;
+	height: auto;
+	margin-top: 3rem;
+}
+.section-11 h5{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.8rem;
+line-height: 3.0rem;
+/* or 350% */
+
+letter-spacing: 0.17em;
+text-align: center;
+color: #FFCF54;
+}
+.section-11 h1{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 4.1rem;
+line-height: 4rem;
+/* or 137% */
+
+text-align: center;
+color: #ECD8BD;
+}
+
+
+/*-----------------------Section-11 end------------------------*/
+
+
+
+
+
+
+
+/*-----------------------Section-12 start------------------------*/
+.section-12{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	gap: 2rem;
+	margin-top: 3rem;
+
+}
+.section-12 .reviews{
+	display: flex;
+	flex-direction: column;
+	padding: 3rem;
+	width: 100%;
+	height: auto;
+	border: 1px solid #FF7433;
+	border-radius: .7rem;
+	gap: 1.5rem;
+}
+.section-12 .reviews img{
+	width: 1rem;
+}
+.section-12 .reviews p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 28px;
+/* or 200% */
+color: #FFFFFF;
+text-align: justify;
+}
+.section-12 .reviews .person{
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	width: 100%;
+	height: 3.5rem;
+	align-items: center;
+}
+
+.section-12 .reviews .person h3{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 1.4rem;
+line-height: 18px;
+
+color: #FFFFFF;
+}
+.section-12 .reviews .person img{
+	width: 3.5rem;
+	width: 3.5rem;
+}
+.section-12 .reviews .person p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5rem;
+
+color: #FFFFFF;
+}
+
+/*-----------------------Section-12 end------------------------*/
+
+/*-----------------------End main body------------------------*/
+
+/*-----------------------start footer------------------------*/
+
+
+/*-----------------------Section-13 start------------------------*/
+
+.footer{
+	width: 100%;
+	padding: 2rem 5rem;
+	background: #1B1724;
+}
+
+.section-13{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.section-13 .footer-section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+
+}
+
+
+.section-13 .footer-section h1{
+	font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 2rem;
+line-height: 70px;
+color: #ECD8BD;
+}
+
+.section-13 .footer-section h3{
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 24px;
+/* identical to box height, or 126% */
+
+
+color: #FFFFFF;
+}
+
+
+.section-13 .footer-section p{
+
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.3rem;
+line-height: 29px;
+/* or 223% */
+
+
+color: #FFFFFF;
+}
+
+
+.section-13 .footer-section .contacts{
+    display: flex;
+    flex-direction: column;
+	width: 100%;
+	background: #FFCF54;
+	gap: 1rem;
+	padding: 1rem;
+	background-image: linear-gradient(45deg, transparent 95%, #1B1724 5%);
+	margin-top: 2rem;
+	justify-content: flex-start;
+	
+
+}
+
+.section-13 .footer-section .contacts a{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: .8rem;
+line-height: 20px;
+color: #000000;
+text-align: center;
+word-wrap: break-word;
+}
+
+.section-13 .footer-section .footer-links{
+	display: flex;
+	width: ;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section-13 .footer-section .footer-links a{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1.1rem;
+line-height: 39px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+
+/*-----------------------Section-13 end------------------------*/
+
+
+
+
+/*-----------------------Section-14 start------------------------*/
+
+.section-14{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 3rem;
+}
+
+.section-14 .rights p{
+	font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 1.3rem;
+/* or 193% */
+
+
+color: #E47944;
+}
+
+.section-14 .social-icons img{
+	width: 2rem;
+}
+
+}
+/*-----------------------Section-14 end------------------------*/
+
+/*-----------------------End  footer------------------------*/
+
+/*------------------------------Responsive at 768px end-----------*/
